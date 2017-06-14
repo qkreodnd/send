@@ -83,6 +83,7 @@ public class MotionKB extends JFrame implements ActionListener {
 		this.add(panelW, BorderLayout.WEST);
 		this.add(panelMid,BorderLayout.CENTER);
 		
+		setTitle("모션인식 키보드");
 		setBounds(200, 200, 350, 410);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		setVisible(true);
